@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+
+	* {box-sizing: border-box;}
+		
+		#flexContainerRow {
+			display: flex;
+			flex-direction: row;
+
+			height: 500px;
+			width: 800px;
+			border: thick solid black;
+			margin: 30px;
+			justify-content: center; /*X-AXIS*/
+			align-items: center; /*Y-AXIS*/
+		}
+
+		#flexContainerCol {
+			display: flex;
+			flex-direction: column;
+
+			height: 500px;
+			width: 800px;
+			border: thick solid darkgrey;
+			margin: 30px;
+			justify-content: center; /*Y-AXIS*/
+			align-items: center; /*X-AXIS*/
+		}
+
+		.flexItem1 {
+			height: 50px;
+			width: 200px;
+			border: thick solid red;
+			/*align-self: flex-start; /*Y-AXIS ROW
+																X-AXIS COLUMN*/
+		}
+
+
+
+
+
+
+	</style>
+</head>
+<body>
+
+	<div id="flexContainerRow">
+		<div class="flexItem1"></div>
+		<div class="flexItem1"></div>
+		<div class="flexItem1"></div>
+	</div>
+
+	<div id="flexContainerCol">
+		<div class="flexItem1"></div>
+		<div class="flexItem1"></div>
+		<div class="flexItem1"></div>
+	</div>
+
+</body>
+</html>
