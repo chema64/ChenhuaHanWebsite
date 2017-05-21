@@ -268,10 +268,11 @@ main #about #aboutFlexContainer {
 	/*border: thick solid black;*/
 	display: flex;
 	flex-direction: column;
+
+	justify-content: flex-start;
+	align-items: center;
 	height: 100%;
 	width: 100%;
-	justify-content: space-around;
-	align-items: center;
 }
 
 main #about #aboutFlexContainer #aboutFlexItem01 {
@@ -300,20 +301,31 @@ main #overview #overviewFlexContainer {
 	/*border: thick solid black;*/
 	display: flex;
 	flex-direction: column;
+
+	justify-content: center;
+	align-items: center;
 	height: 100%;
 	width: 100%;
-	justify-content: flex-start;
-	align-items: center;
 }
 
-main #overview #overviewFlexContainer #overviewFlexItem01 img:nth-child(1) {
-	
+
+
+
+main #overview #overviewFlexContainer #overviewFlexItem02 img:nth-child(1) {
+	/*border: thin solid blue;*/
 	width: 141px;
 	height: 164px;
 }
 
-main #overview #overviewFlexContainer #overviewFlexItem02 {
+main #overview #overviewFlexContainer #overviewFlexItem02 div {
 	/*border: thin solid red;*/
+	display: inline-flex;
+
+}
+
+main #overview #overviewFlexContainer #overviewFlexItem02 div h2 {
+	margin-right: 40px;
+	align-self: center;
 }
 
 main #overview #overviewFlexContainer #overviewFlexItem03 {
@@ -388,6 +400,12 @@ footer p {
 /*Extra Small*/
 @media screen and (max-width: 767px) {
 
+	main h2, h3, h4, h5 {
+
+	color: black;
+	text-shadow: 0 0 0px black;
+}
+
 	main #flexItemTL01 {
 
 		width: 290px;
@@ -405,10 +423,13 @@ footer p {
 		height: 585px;
 	}
 
-	main #homeFlexContainer {
+
+	main #home #homeFlexContainer {
 
 		/*background: linear-gradient(to right, rgba(255, 230, 240, 1), rgba(255, 255, 230, 1));*/
+		justify-content: flex-start;
 	}
+
 
 	main #home #homeFlexContainer #homeFlexItem02 {
 		/*border: thin solid green;*/
@@ -426,34 +447,47 @@ footer p {
 		padding-right:10px;
 	}
 
-
-	main #about #aboutFlexContainer #aboutFlexItem03 {
-		width: 100%;
-		padding-left: 8px;
-		padding-right: 8px;
-	}
-
-	main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(2) {
-	/*border: thin solid blue;*/
-		height: 137px;
-		width: 140px;
-	}
+	/*main #about #aboutFlexContainer #aboutFlexItem02 {
+		padding-top: 20px;
+	}*/
 
 	main #about #aboutFlexContainer {
 		justify-content: flex-start;
 	}
 
+	main #about #aboutFlexContainer #aboutFlexItem03 {
+		width: 100%;
+		padding-left: 8px;
+		padding-right: 8px;
+		/*padding-top: 20px;*/
+	}
+
+	main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(2) {
+	/*border: thin solid blue;*/
+
+		height: 137px;
+		width: 140px;
+	}
+
+
+
+	main #overview #overviewFlexContainer {
+		justify-content: flex-start;
+	}
+
+
+
 	main #overview #overviewFlexContainer #overviewFlexItem03 {
 		width: 100%;
 		padding-left: 8px;
 		padding-right: 8px;
+
 	}
 
 	main #overview #overviewFlexContainer #overviewFlexItem01 img:nth-child(2) {
-	
-	width: 71px;
-	height: 82px;
-}
+		width: 71px;
+		height: 82px;
+	}
 
 }	
 
