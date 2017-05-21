@@ -289,35 +289,31 @@ main #about #aboutFlexContainer #aboutFlexItem03 {
 	width: 500px;
 }
 
-/*PHILO PAGE*/
-/*PHILO PAGE*/
-/*PHILO PAGE*/
 
-main #philo.jumbotron {
-	border: thick solid green;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	background: linear-gradient(to right, rgba(255, 230, 240, 0), rgba(255, 255, 230, 0));
-}
+/*OVERVIEW PAGE*/
+/*OVERVIEW PAGE*/
+/*OVERVIEW PAGE*/
 
-main #philoFlexContainer {
-	border: thin solid red;
+main #overview #overviewFlexContainer {
+	/*border: thick solid black;*/
 	display: flex;
 	flex-direction: column;
-	width: 100%;
 	height: 100%;
+	width: 100%;
+	justify-content: flex-start;
 	align-items: center;
-	justify-content: space-around;
 }
 
-main #philoFlexContainer #philoFlexItem01 {
-	border: thin solid green;
+main #overview #overviewFlexContainer #overviewFlexItem01 {
+	/*border: thin solid red;*/
 }
 
-main #philoFlexContainer #philoFlexItem02 {
-	width: 1700px;
-	border: thin solid green;
+main #overview #overviewFlexContainer #overviewFlexItem02 {
+	/*border: thin solid green;*/
+	width: 500px;
 }
+
+
 
 
 
