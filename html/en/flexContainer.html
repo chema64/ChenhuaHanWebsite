@@ -27,7 +27,7 @@
 			width: 800px;
 			border: thick solid darkgrey;
 			margin: 30px;
-			justify-content: center; /*Y-AXIS*/
+			justify-content: flex-start; /*Y-AXIS*/
 			align-items: center; /*X-AXIS*/
 		}
 
@@ -55,7 +55,11 @@
 	</div>
 
 	<div id="flexContainerCol">
-		<div class="flexItem1"></div>
+		<div style="display: inline-flex;">
+			<p>test</p>
+			<div class="flexItem1"></div>
+		</div>
+		
 		<div class="flexItem1"></div>
 		<div class="flexItem1"></div>
 	</div>
