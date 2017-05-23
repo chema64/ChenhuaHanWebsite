@@ -17,11 +17,11 @@ nav.navbar-inverse .navbar-nav>li>a{
 		font-family:  Arial, Helvetica,  "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", Simsun ,   sans-serif;
 	font-size: 18px;
 	color: #9d9d9d;
-	/*transition-duration: 2s;*/
+	
 }
 
 nav.navbar-inverse .navbar-nav>li>a:hover {
-	transition-duration: .5s;
+	transition-duration: .8s;
 	background-color: #3A3A3B;
 
 	color: white;
@@ -32,11 +32,12 @@ nav.navbar-inverse .navbar-nav>li>a:hover {
 nav.navbar-inverse .navbar-nav>li>a:active {
 	/*border: thin solid red;*/
 
-	transition-duration: .3s;
-	background-color: #DDDCE0;
+	transition-duration: 0.3s;
+	
 
 	color: black;
 	text-shadow: 0 0 1px black;
+	background-color: #DDDCE0;
 
 }
 
@@ -51,7 +52,7 @@ nav.navbar-inverse .navbar-nav>li>a:active {
 
 nav.navbar-inverse .navbar-nav>.active>a:hover
 {
-	transition-duration: .5s;
+	transition-duration: .8s;
 	background-color: #5F5F61;
 
 	color: white;
@@ -65,6 +66,7 @@ nav.navbar-inverse .navbar-nav>.active>a:active
 	transition-duration: 0.3s;
 	background-color: #DDDCE0;
 	color: black;
+	text-shadow: 0 0 1px black;
 
 }
 
@@ -365,29 +367,7 @@ footer p {
 /*Large*/
 @media screen and (min-width: 1200px)  {
 
-	.navbar-inverse .navbar-nav>li>a {
-		transition-duration: 0.4s;
-	}
 
-	.navbar-inverse .navbar-nav>.active>a:hover
-	{
-		background-color: #636475;
-		color: white;
-	}
-
-	.navbar-inverse .navbar-nav>li>a:hover {
-		background-color: #636475;
-		color: white;
-		text-shadow: 0 0 10px #FFFFFF;
-	}
-
-	.navbar-inverse .navbar-nav>li>a:active {
-		transition-duration: 0.3s;
-		color: black;
-		background-color: #8B8CA4;
-		text-shadow: 0 0 20px #4C004C;
-
-	}
 
 }
 
