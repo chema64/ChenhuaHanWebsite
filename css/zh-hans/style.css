@@ -289,11 +289,11 @@ main #about #aboutFlexContainer #aboutFlexItem03 {
 	width: 500px;
 }
 
-/*OVERVIEW PAGE*/
-/*OVERVIEW PAGE*/
-/*OVERVIEW PAGE*/
+/*courses PAGE*/
+/*courses PAGE*/
+/*courses PAGE*/
 
-main #overview #overviewFlexContainer {
+main #courses #coursesFlexContainer {
 	/*border: thick solid black;*/
 	display: flex;
 	flex-direction: column;
@@ -307,24 +307,24 @@ main #overview #overviewFlexContainer {
 
 
 
-main #overview #overviewFlexContainer #overviewFlexItem02 img:nth-child(1) {
+main #courses #coursesFlexContainer #coursesFlexItem02 img:nth-child(1) {
 	/*border: thin solid blue;*/
 	width: 141px;
 	height: 164px;
 }
 
-main #overview #overviewFlexContainer #overviewFlexItem02 div {
+main #courses #coursesFlexContainer #coursesFlexItem02 div {
 	/*border: thin solid red;*/
 	display: inline-flex;
 
 }
 
-main #overview #overviewFlexContainer #overviewFlexItem02 div h2 {
+main #courses #coursesFlexContainer #coursesFlexItem02 div h2 {
 	margin-right: 40px;
 	align-self: center;
 }
 
-main #overview #overviewFlexContainer #overviewFlexItem03 {
+main #courses #coursesFlexContainer #coursesFlexItem03 {
 	/*border: thin solid green;*/
 	width: 500px;
 }
@@ -483,20 +483,20 @@ footer p {
 		width: 140px;
 	}
 
-		main #overview #overviewFlexContainer {
+		main #courses #coursesFlexContainer {
 		justify-content: flex-start;
 	}
 
 
 
-	main #overview #overviewFlexContainer #overviewFlexItem03 {
+	main #courses #coursesFlexContainer #coursesFlexItem03 {
 		width: 100%;
 		padding-left: 8px;
 		padding-right: 8px;
 
 	}
 
-	main #overview #overviewFlexContainer #overviewFlexItem01 img:nth-child(2) {
+	main #courses #coursesFlexContainer #coursesFlexItem01 img:nth-child(2) {
 		width: 71px;
 		height: 82px;
 	}
