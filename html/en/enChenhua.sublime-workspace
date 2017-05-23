@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"nav",
+				"navbar"
+			],
+			[
 				"fel",
 				"flex-start"
 			],
@@ -510,10 +514,6 @@
 			[
 				"p",
 				"padding-left"
-			],
-			[
-				"PA",
-				"padding-left"
 			]
 		]
 	},
@@ -523,7 +523,7 @@
 			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/index.html",
 			"settings":
 			{
-				"buffer_size": 6043,
+				"buffer_size": 5630,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,7 +532,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 6055,
+				"buffer_size": 5643,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +541,25 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 5841,
+				"buffer_size": 6158,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "courses.html",
+			"settings":
+			{
+				"buffer_size": 6902,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/en/style.css",
+			"settings":
+			{
+				"buffer_size": 7589,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -551,43 +569,6 @@
 			"settings":
 			{
 				"buffer_size": 1088,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "overview.html",
-			"settings":
-			{
-				"buffer_size": 6654,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "overview.html"
-			}
-		},
-		{
-			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/overview.html",
-			"settings":
-			{
-				"buffer_size": 6654,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/en/style.css",
-			"settings":
-			{
-				"buffer_size": 7610,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/index.html",
-			"settings":
-			{
-				"buffer_size": 5538,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -641,6 +622,8 @@
 	},
 	"file_history":
 	[
+		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/en/overview.html",
+		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/index.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/en/index.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHan/index.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHan/html/zh-hans/index.html",
@@ -766,9 +749,7 @@
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/crit/about.css",
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/min/index.html",
 		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/en/dist/index.html",
-		"/C/Users/chema/Downloads/optimized_contents/css/style.css",
-		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/crit/index.css",
-		"/C/Users/chema/Google Drive/Development2016/WebSite/Bootstrap/CodeAcademy/Aozhongqiao/20161221Prototype06/crit/index2.css"
+		"/C/Users/chema/Downloads/optimized_contents/css/style.css"
 	],
 	"find":
 	{
@@ -787,6 +768,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"overview",
 			"h4",
 			";);",
 			";\n",
@@ -913,8 +895,7 @@
 			"D7=\"NA\",TRUE,FALSE), IF(E7=\"NA\",TRUE,FALSE), IF(F7=\"NA\",TRUE,FALSE), IF(G7=\"NA\"",
 			"IF(D7=\"NA\",TRUE,FALSE), IF(E7=\"NA\",TRUE,FALSE), IF(F7=\"NA\",TRUE,FALSE), IF(G7=\"NA\",TRUE,FALSE)",
 			"NA",
-			"IF(D7=\"NA\",TRUE,FALSE), IF(E7=\"NA\",TRUE,FALSE), IF(F7=\"NA\",TRUE,FALSE), IF(G7=\"NA\"",
-			"AK7"
+			"IF(D7=\"NA\",TRUE,FALSE), IF(E7=\"NA\",TRUE,FALSE), IF(F7=\"NA\",TRUE,FALSE), IF(G7=\"NA\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -922,6 +903,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"courses",
 			"h5",
 			"h4",
 			"\t  \t\t\t\t<h5>一点点关于我自己</h5>\n\n\t  \t\n\t\n\t  \t\t\t\t<h5>我学习和教授日语和英语作为我的教育学士学位的一部分。我能说流利的韩语。</h5>\n\t  \t\t\t\t<h5>我致力于为学生提供基础技能，以激励和促进他们的语言技能学习。我在教学语言方面有多年的经验，如普通话和我在积极的学习环境中这样做。</h5>\n\t  \t\t\t\t<h5>我希望有机会协助发展学生学习第二语言，这将是我们现在生活在全球的重要资产。</h5>",
@@ -1012,7 +994,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1021,15 +1003,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6043,
+						"buffer_size": 5630,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1943,
-								1943
+								1693,
+								1704
 							]
 						],
 						"settings":
@@ -1037,10 +1019,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1320.0,
+						"translation.y": 1456.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1049,15 +1031,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6055,
+						"buffer_size": 5643,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1324,
-								1324
+								1703,
+								1703
 							]
 						],
 						"settings":
@@ -1065,10 +1047,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 480.0,
+						"translation.y": 1200.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1077,15 +1059,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5841,
+						"buffer_size": 6158,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3928,
-								3928
+								1731,
+								1731
 							]
 						],
 						"settings":
@@ -1093,14 +1075,71 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5880.0,
+						"translation.y": 1240.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
+					"file": "courses.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5254,
+								4055
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6669.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/en/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "flexContainer.html",
 					"semi_transient": false,
 					"settings":
@@ -1125,121 +1164,7 @@
 						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "overview.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3678,
-								3718
-							]
-						],
-						"settings":
-						{
-							"auto_name": "overview.html",
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/overview.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6654,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/en/style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7610,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4577,
-								4577
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 11408.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5538,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4273,
-								4273
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4800.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
