@@ -559,7 +559,7 @@
 			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/en/style.css",
 			"settings":
 			{
-				"buffer_size": 7589,
+				"buffer_size": 7591,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -1115,15 +1115,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7589,
+						"buffer_size": 7591,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								45,
-								45
+								505,
+								505
 							]
 						],
 						"settings":
