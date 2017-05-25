@@ -310,28 +310,50 @@ main #courses #coursesFlexContainer {
 }
 
 
-
-
-main #courses #coursesFlexContainer #coursesFlexItem02 img:nth-child(1) {
-	/*border: thin solid blue;*/
-	width: 141px;
-	height: 164px;
-}
-
-main #courses #coursesFlexContainer #coursesFlexItem02 div {
-	/*border: thin solid red;*/
-	display: inline-flex;
-
-}
-
-main #courses #coursesFlexContainer #coursesFlexItem02 div h2 {
-	margin-right: 40px;
-	align-self: center;
-}
-
-main #courses #coursesFlexContainer #coursesFlexItem03 {
+main #courses #coursesFlexContainer #coursesFlexItem03, #coursesFlexItem02, #coursesFlexItem01 {
 	/*border: thin solid green;*/
 	width: 500px;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem01 h2 {
+	/*border: thin solid blue;*/
+	text-align: center;
+	font-weight: 700;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem02 h2 {
+	/*border: thin solid blue;*/
+	text-align: center;
+	font-weight: 700;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem03 h2 {
+	/*border: thin solid blue;*/
+	text-align: center;
+	font-weight: 700;
+}
+
+main #courses #coursesFlexContainer #coursesFlexItem01 .visible-xs h4 {
+	/*border: thin solid blue;*/
+	font-weight: 700;
+	text-align: center;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem02 .visible-xs h4 {
+	/*border: thin solid blue;*/
+	font-weight: 700;
+	text-align: center;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem03 .visible-xs h4 {
+	/*border: thin solid blue;*/
+	font-weight: 700;
+	text-align: center;
 }
 
 
@@ -431,22 +453,23 @@ footer p {
 		justify-content: flex-start;
 	}
 
-
-	main #home #homeFlexContainer #homeFlexItem02 {
+	main #home #homeFlexContainer #homeFlexItem01  {
 		/*border: thin solid green;*/
-		width: 100%;
-		/*margin: auto;*/
+		margin-bottom: 20px;
+		
 	}
+
+	main #home #homeFlexContainer #homeFlexItem02  {
+		/*border: thin solid blue;*/
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
 
 	main #home #homeFlexContainer #homeFlexItem03 {
 		width: 100%;
 	}
 
-	main #homeFlexItem02 .visible-xs #padMod {
-		/*border: thin solid green;*/
-		padding-left:30px;
-		padding-right:10px;
-	}
 
 	/*main #about #aboutFlexContainer #aboutFlexItem02 {
 		padding-top: 20px;
@@ -478,17 +501,14 @@ footer p {
 
 
 
-	main #courses #coursesFlexContainer #coursesFlexItem03 {
+	main #courses #coursesFlexContainer #coursesFlexItem03, #coursesFlexItem02, #coursesFlexItem01 {
 		width: 100%;
 		padding-left: 8px;
 		padding-right: 8px;
 
 	}
 
-	main #courses #coursesFlexContainer #coursesFlexItem01 img:nth-child(2) {
-		width: 71px;
-		height: 82px;
-	}
+
 
 }	
 
