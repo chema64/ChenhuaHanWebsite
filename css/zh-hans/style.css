@@ -98,7 +98,7 @@ main h2, h3 {
 }
 
 main h4, h5 {
-	/*border: thin solid red;*/
+	/*border: thin solid yellow;*/
 	font-family:  Arial, Helvetica,  "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei",  Simsun,    sans-serif;
 	color: black;
 	text-shadow: 0 0 1px black;
@@ -276,8 +276,28 @@ main #about #aboutFlexContainer {
 	align-items: center;
 }
 
-main #about #aboutFlexContainer #aboutFlexItem01 {
+main #about #aboutFlexContainer #aboutFlexItem01 h2 {
 	/*border: thin solid red;*/
+	font-size: 40px;
+	font-weight: 700;
+}
+
+main #about #aboutFlexContainer #aboutFlexItem01 h3 {
+	/*border: thin solid red;*/
+	font-size: 30px;
+	font-weight: 700;
+}
+
+main #about #aboutFlexContainer #aboutFlexItem03 h4 {
+	/*border: thin solid red;*/
+	font-size: 20px;
+
+}
+
+main #about #aboutFlexContainer #aboutFlexItem03 h5 {
+	/*border: thin solid red;*/
+	font-size: 18px;
+
 }
 
 main #about #aboutFlexContainer #aboutFlexItem02 img {
@@ -429,14 +449,31 @@ footer p {
 		/*background: linear-gradient(to right, rgba(255, 230, 240, 1), rgba(255, 255, 230, 1));*/
 	}
 
-	main #home #homeFlexContainer #homeFlexItem02 {
+	main #home #homeFlexContainer #homeFlexItem01  {
 		/*border: thin solid green;*/
-		width: 100%;
-		/*margin: auto;*/
+		margin-bottom: 20px;
+		
 	}
+
+	main #home #homeFlexContainer #homeFlexItem02  {
+		/*border: thin solid blue;*/
+		margin-bottom: 20px;
+		width: 100%;
+	}
+
 
 	main #home #homeFlexContainer #homeFlexItem03 {
 		width: 100%;
+	}
+
+	main #home #homeFlexContainer #homeFlexItem03 .visible-xs h4 {
+		/*border: thin solid red;*/
+		font-size: 20px;
+	}
+
+	main #home #homeFlexContainer #homeFlexItem03 .visible-xs h5 {
+		/*border: thin solid orange;*/
+		font-size: 18px;
 	}
 
 	main #homeFlexItem02 .visible-xs #padMod {
