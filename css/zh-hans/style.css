@@ -199,7 +199,7 @@ main #flexItemBR04 img {
 	background-color: transparent;
 	background: linear-gradient(to right, rgba(255, 230, 240, .9), rgba(255, 255, 230, .9));
 	border-radius: 0px;
-	padding-bottom: 88px;
+	padding-bottom: 28px;
 	padding-top: 95px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -257,6 +257,36 @@ main #home #homeFlexContainer #homeFlexItem03 {
 main #home #homeFlexContainer #homeFlexItem03 .conContact {
 	margin-left: 20px;
 
+}
+
+#homeFlexItem01 #innerFlexLg {
+	/*border: thin solid blue;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+#homeFlexItem01 #innerFlexXs {
+	/*border: thin solid blue;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+#homeFlexItem01 #innerFlexLg img {
+	/*border: thin solid blue;*/
+	height: 164px;
+	width: 141px;
+}
+
+#homeFlexItem01 #innerFlexXs img {
+	/*border: thin solid red;*/
+	height: 82px;
+	width: 71px;
 }
 
 
