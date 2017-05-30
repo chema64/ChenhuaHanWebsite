@@ -245,12 +245,14 @@ main #home #homeFlexContainer  {
 
 #homeFlexItem01 #innerFlexLg img {
 	/*border: thin solid blue;*/
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 	height: 164px;
 	width: 141px;
 }
 
 #homeFlexItem01 #innerFlexXs img {
 	/*border: thin solid red;*/
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 	height: 82px;
 	width: 71px;
 }
@@ -322,6 +324,7 @@ main #about #aboutFlexContainer #aboutFlexItem01 {
 
 	main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(1) {
 	/*border: thin solid blue;*/
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 	height: 279px;
 	width: 273px;
 }
@@ -370,7 +373,7 @@ main #courses #coursesFlexContainer div .coursesPicFlex {
 
 main #courses #coursesFlexContainer img{
 	/*border: thick solid green;*/
-	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);"
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 main #courses #coursesFlexContainer #coursesImg01  {
