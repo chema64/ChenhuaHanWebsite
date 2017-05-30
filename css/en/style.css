@@ -220,7 +220,7 @@ main #home #homeFlexContainer  {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: flex-start;
 	height: 100%;
 	width: 100%;
 }
@@ -346,7 +346,7 @@ main #courses #coursesFlexContainer {
 	display: flex;
 	flex-direction: column;
 
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	height: 100%;
 	width: 100%;
@@ -569,7 +569,7 @@ footer p {
 
 	main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(2) {
 	/*border: thin solid blue;*/
-
+		box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 		height: 137px;
 		width: 140px;
 	}

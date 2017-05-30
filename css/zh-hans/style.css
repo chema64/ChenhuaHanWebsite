@@ -219,7 +219,7 @@ main #home #homeFlexContainer  {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: flex-start;
 	height: 100%;
 	width: 100%;
 }
@@ -281,12 +281,14 @@ main #home #homeFlexContainer #homeFlexItem03 .conContact {
 	/*border: thin solid blue;*/
 	height: 164px;
 	width: 141px;
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 #homeFlexItem01 #innerFlexXs img {
 	/*border: thin solid red;*/
 	height: 82px;
 	width: 71px;
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 
@@ -302,7 +304,7 @@ main #about #aboutFlexContainer {
 	flex-direction: column;
 	height: 100%;
 	width: 100%;
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-items: center;
 }
 
@@ -334,6 +336,7 @@ main #about #aboutFlexContainer #aboutFlexItem02 img {
 	/*border: thin solid blue;*/
 	height: 279px;
 	width: 273px;
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 main #about #aboutFlexContainer #aboutFlexItem03 {
@@ -356,29 +359,91 @@ main #courses #coursesFlexContainer {
 	width: 100%;
 }
 
-
-
-
-main #courses #coursesFlexContainer #coursesFlexItem02 img:nth-child(1) {
-	/*border: thin solid blue;*/
-	width: 141px;
-	height: 164px;
-}
-
-main #courses #coursesFlexContainer #coursesFlexItem02 div {
-	/*border: thin solid red;*/
-	display: inline-flex;
-
-}
-
-main #courses #coursesFlexContainer #coursesFlexItem02 div h2 {
-	margin-right: 40px;
-	align-self: center;
-}
-
-main #courses #coursesFlexContainer #coursesFlexItem03 {
+main #courses #coursesFlexContainer #coursesFlexItem03, #coursesFlexItem02, #coursesFlexItem01 {
 	/*border: thin solid green;*/
-	width: 500px;
+	width: 700px;
+}
+
+#courses.jumbotron {
+	/*border: thin solid black;*/
+	padding-top: 50px;
+	padding-bottom: 0px;
+}
+
+
+
+
+main #courses #coursesFlexContainer div .coursesPicFlex {
+	/*border: thin solid red;*/
+	display: flex; 
+	flex-direction: row; 
+	justify-content: space-around;
+}
+
+main #courses #coursesFlexContainer img{
+	/*border: thick solid green;*/
+	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+main #courses #coursesFlexContainer #coursesImg01  {
+
+	/*border: thin solid red;*/
+	width: 256px; 
+	height: 125px;
+}
+
+main #courses #coursesFlexContainer #coursesImg02  {
+	/*border: thin solid green;*/
+	width: 256px; 
+	height: 138px;
+}
+
+main #courses #coursesFlexContainer #coursesImg03  {
+	/*border: thin solid blue;*/
+	width: 256px; 
+	height: 136px;
+}
+
+
+
+main #courses #coursesFlexContainer #coursesFlexItem01 h2 {
+	/*border: thin solid blue;*/
+	text-align: center;
+	font-weight: 700;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem02 h2 {
+	/*border: thin solid blue;*/
+	text-align: center;
+	font-weight: 700;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem03 h2 {
+	/*border: thin solid blue;*/
+	text-align: center;
+	font-weight: 700;
+}
+
+main #courses #coursesFlexContainer #coursesFlexItem01 .visible-xs h4 {
+	/*border: thin solid blue;*/
+	font-weight: 700;
+	text-align: center;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem02 .visible-xs h4 {
+	/*border: thin solid blue;*/
+	font-weight: 700;
+	text-align: center;
+}
+
+
+main #courses #coursesFlexContainer #coursesFlexItem03 .visible-xs h4 {
+	/*border: thin solid blue;*/
+	font-weight: 700;
+	text-align: center;
 }
 
 
@@ -528,6 +593,7 @@ footer p {
 
 		height: 137px;
 		width: 140px;
+		box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 	}
 
 		main #courses #coursesFlexContainer {
