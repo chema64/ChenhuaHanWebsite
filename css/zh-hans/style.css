@@ -538,6 +538,10 @@ footer p {
 		height: 585px;
 	}
 
+		#courses.jumbotron {
+		padding-top: 0px;
+	}
+
 	main #home #homeFlexContainer {
 		justify-content: flex-start;
 		/*border: thin solid black;*/
@@ -602,17 +606,13 @@ footer p {
 
 
 
-	main #courses #coursesFlexContainer #coursesFlexItem03 {
+	main #courses #coursesFlexContainer #coursesFlexItem03, #coursesFlexItem02, #coursesFlexItem01 {
 		width: 100%;
 		padding-left: 8px;
 		padding-right: 8px;
 
 	}
 
-	main #courses #coursesFlexContainer #coursesFlexItem01 img:nth-child(2) {
-		width: 71px;
-		height: 82px;
-	}
 
 }	
 

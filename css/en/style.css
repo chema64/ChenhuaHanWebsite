@@ -527,6 +527,9 @@ footer p {
 		height: 585px;
 	}
 
+	#courses.jumbotron {
+		padding-top: 0px;
+	}
 
 	main #home #homeFlexContainer {
 
@@ -536,7 +539,7 @@ footer p {
 
 	main #home #homeFlexContainer #homeFlexItem01  {
 		/*border: thin solid green;*/
-		margin-bottom: 20px;
+		/*margin-bottom: 20px;*/
 		
 	}
 
