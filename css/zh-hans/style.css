@@ -334,14 +334,20 @@ main #about #aboutFlexContainer #aboutFlexItem03 h5 {
 
 main #about #aboutFlexContainer #aboutFlexItem02 img {
 	/*border: thin solid blue;*/
-	height: 279px;
+	height: 322px;
 	width: 273px;
 	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 main #about #aboutFlexContainer #aboutFlexItem03 {
 	/*border: thin solid green;*/
-	width: 500px;
+	width: 600px;
+}
+
+#about.jumbotron {
+	/*border: thin solid black;*/
+	padding-top: 50px;
+	padding-bottom: 0px;
 }
 
 /*courses PAGE*/
@@ -538,9 +544,7 @@ footer p {
 		height: 585px;
 	}
 
-		#courses.jumbotron {
-		padding-top: 0px;
-	}
+
 
 	main #home #homeFlexContainer {
 		justify-content: flex-start;
@@ -592,15 +596,19 @@ footer p {
 		padding-right: 8px;
 	}
 
-		main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(2) {
+	main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(2) {
 	/*border: thin solid blue;*/
 
-		height: 137px;
+		height: 165px;
 		width: 140px;
 		box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 	}
 
-		main #courses #coursesFlexContainer {
+	#about.jumbotron {
+		padding-top: 0px;
+	}
+
+	main #courses #coursesFlexContainer {
 		justify-content: flex-start;
 	}
 
@@ -611,6 +619,10 @@ footer p {
 		padding-left: 8px;
 		padding-right: 8px;
 
+	}
+
+	#courses.jumbotron {
+		padding-top: 0px;
 	}
 
 
