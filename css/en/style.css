@@ -325,7 +325,7 @@ main #about #aboutFlexContainer #aboutFlexItem01 {
 	main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(1) {
 	/*border: thin solid blue;*/
 	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
-	height: 279px;
+	height: 322px;
 	width: 273px;
 }
 
@@ -333,7 +333,13 @@ main #about #aboutFlexContainer #aboutFlexItem01 {
 
 main #about #aboutFlexContainer #aboutFlexItem03 {
 	/*border: thin solid green;*/
-	width: 500px;
+	width: 600px;
+}
+
+#about.jumbotron {
+	/*border: thin solid black;*/
+	padding-top: 50px;
+	padding-bottom: 0px;
 }
 
 
@@ -527,9 +533,6 @@ footer p {
 		height: 585px;
 	}
 
-	#courses.jumbotron {
-		padding-top: 0px;
-	}
 
 	main #home #homeFlexContainer {
 
@@ -573,8 +576,12 @@ footer p {
 	main #about #aboutFlexContainer #aboutFlexItem02 img:nth-child(2) {
 	/*border: thin solid blue;*/
 		box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
-		height: 137px;
+		height: 165px;
 		width: 140px;
+	}
+
+	#about.jumbotron {
+		padding-top: 0px;
 	}
 
 
@@ -591,6 +598,11 @@ footer p {
 		padding-right: 8px;
 
 	}
+
+	#courses.jumbotron {
+		padding-top: 0px;
+	}
+
 
 
 

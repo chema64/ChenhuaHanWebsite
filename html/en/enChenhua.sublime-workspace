@@ -4,6 +4,62 @@
 		"selected_items":
 		[
 			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"r",
+				"row"
+			],
+			[
+				"co",
+				"column"
+			],
+			[
+				"ds",
+				"display"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"algi",
+				"align-self"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"in",
+				"inline-flex"
+			],
+			[
+				"sp",
+				"space-around"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fl",
+				"flex-start"
+			],
+			[
 				"nav",
 				"navbar"
 			],
@@ -20,14 +76,6 @@
 				"flex-end"
 			],
 			[
-				"flex",
-				"flex-start"
-			],
-			[
-				"mar",
-				"margin-right"
-			],
-			[
 				"vs",
 				"visible-sm"
 			],
@@ -40,14 +88,6 @@
 				"column-reverse"
 			],
 			[
-				"r",
-				"row-reverse"
-			],
-			[
-				"co",
-				"column-reverse"
-			],
-			[
 				"di",
 				"display"
 			],
@@ -56,16 +96,8 @@
 				"inline-flex"
 			],
 			[
-				"in",
-				"inline"
-			],
-			[
 				"vi",
 				"visible-lg"
-			],
-			[
-				"pad",
-				"padding-top"
 			],
 			[
 				"v",
@@ -104,10 +136,6 @@
 				"main-start"
 			],
 			[
-				"align",
-				"align-self"
-			],
-			[
 				"ali",
 				"align-items"
 			],
@@ -118,10 +146,6 @@
 			[
 				"flx",
 				"flex-basis"
-			],
-			[
-				"fl",
-				"flex-shrink"
 			],
 			[
 				"marg",
@@ -146,10 +170,6 @@
 			[
 				"felx",
 				"flex-end"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"fon",
@@ -178,10 +198,6 @@
 			[
 				"padi",
 				"padding-left"
-			],
-			[
-				"s",
-				"space-around"
 			],
 			[
 				"b",
@@ -498,22 +514,6 @@
 			[
 				"well",
 				"well-sm"
-			],
-			[
-				"collap",
-				"collapse1"
-			],
-			[
-				"bu",
-				"button"
-			],
-			[
-				"spac",
-				"space-around"
-			],
-			[
-				"p",
-				"padding-left"
 			]
 		]
 	},
@@ -523,16 +523,7 @@
 			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/index.html",
 			"settings":
 			{
-				"buffer_size": 5630,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 5643,
+				"buffer_size": 5870,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +532,16 @@
 			"file": "about.html",
 			"settings":
 			{
-				"buffer_size": 6158,
+				"buffer_size": 6129,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5950,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -550,7 +550,7 @@
 			"file": "courses.html",
 			"settings":
 			{
-				"buffer_size": 6902,
+				"buffer_size": 7121,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -559,7 +559,7 @@
 			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/en/style.css",
 			"settings":
 			{
-				"buffer_size": 7591,
+				"buffer_size": 9792,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -568,9 +568,22 @@
 			"file": "flexContainer.html",
 			"settings":
 			{
-				"buffer_size": 1088,
+				"buffer_size": 1174,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "TASL\nTitle: Newcastle 2009 : University Of Newcastle.\nAuthor: Sukianto Hamzah\nSource: https://www.flickr.com/photos/sukianto/3905899083/\nLicence:\n\nTitle: How we teach western kids to write Chinese characters\nAuthor: https://www.flickr.com/photos/ivanwalsh/\nSource: https://www.flickr.com/photos/ivanwalsh/4180684786/\nLicence:\n",
+			"file": "createCommons.txt",
+			"file_size": 13,
+			"file_write_time": 131413570746631823,
+			"settings":
+			{
+				"buffer_size": 326,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "createCommons"
 			}
 		}
 	],
@@ -768,6 +781,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"around",
+			";\">",
+			"border: thin solid blue;",
 			"overview",
 			"h4",
 			";);",
@@ -892,10 +908,7 @@
 			"ISBLANK(D7)=FALSE",
 			"IF(D7<>\"NA\",TRUE,FALSE)",
 			"\"NA\"",
-			"D7=\"NA\",TRUE,FALSE), IF(E7=\"NA\",TRUE,FALSE), IF(F7=\"NA\",TRUE,FALSE), IF(G7=\"NA\"",
-			"IF(D7=\"NA\",TRUE,FALSE), IF(E7=\"NA\",TRUE,FALSE), IF(F7=\"NA\",TRUE,FALSE), IF(G7=\"NA\",TRUE,FALSE)",
-			"NA",
-			"IF(D7=\"NA\",TRUE,FALSE), IF(E7=\"NA\",TRUE,FALSE), IF(F7=\"NA\",TRUE,FALSE), IF(G7=\"NA\""
+			"D7=\"NA\",TRUE,FALSE), IF(E7=\"NA\",TRUE,FALSE), IF(F7=\"NA\",TRUE,FALSE), IF(G7=\"NA\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -903,6 +916,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"/*border: thin solid blue;*/",
 			"courses",
 			"h5",
 			"h4",
@@ -994,7 +1008,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -1003,15 +1017,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5630,
+						"buffer_size": 5870,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1693,
-								1704
+								4094,
+								4094
 							]
 						],
 						"settings":
@@ -1019,55 +1033,27 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1456.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5643,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1703,
-								1703
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1200.0,
+						"translation.y": 5576.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6158,
+						"buffer_size": 6129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1731,
-								1731
+								3774,
+								3774
 							]
 						],
 						"settings":
@@ -1075,10 +1061,38 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1240.0,
+						"translation.y": 593.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4104,
+								4143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5000.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -1087,15 +1101,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6902,
+						"buffer_size": 7121,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5254,
-								4055
+								5294,
+								5294
 							]
 						],
 						"settings":
@@ -1103,7 +1117,7 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 6669.0,
+						"translation.y": 9500.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -1115,15 +1129,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7591,
+						"buffer_size": 9792,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								505,
-								505
+								8564,
+								8520
 							]
 						],
 						"settings":
@@ -1132,10 +1146,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 20220.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1144,15 +1158,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1088,
+						"buffer_size": 1174,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								499,
-								499
+								1041,
+								1041
 							]
 						],
 						"settings":
@@ -1161,10 +1175,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "createCommons.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								316,
+								316
+							]
+						],
+						"settings":
+						{
+							"auto_name": "createCommons",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

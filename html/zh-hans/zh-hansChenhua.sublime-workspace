@@ -4,16 +4,20 @@
 		"selected_items":
 		[
 			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
 				"f",
 				"flex-end"
 			],
 			[
 				"fel",
 				"flex-start"
-			],
-			[
-				"fle",
-				"flex-end"
 			],
 			[
 				"flex",
@@ -142,10 +146,6 @@
 			[
 				"felx",
 				"flex-end"
-			],
-			[
-				"font",
-				"font-weight"
 			],
 			[
 				"fon",
@@ -523,16 +523,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5406,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "about.html",
-			"settings":
-			{
-				"buffer_size": 5054,
+				"buffer_size": 5616,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,7 +532,16 @@
 			"file": "courses.html",
 			"settings":
 			{
-				"buffer_size": 4626,
+				"buffer_size": 7086,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "about.html",
+			"settings":
+			{
+				"buffer_size": 5009,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -550,7 +550,7 @@
 			"file": "/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/css/zh-hans/style.css",
 			"settings":
 			{
-				"buffer_size": 7902,
+				"buffer_size": 10719,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -604,8 +604,8 @@
 	},
 	"file_history":
 	[
-		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/overview.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/index.html",
+		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/zh-hans/overview.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHanPostGulp/html/en/index.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHan/index.html",
 		"/C/Users/chema/Google Drive/Development2017/ChenhuaHan/html/zh-hans/index.html",
@@ -989,15 +989,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5406,
+						"buffer_size": 5616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1946,
-								1882
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1005,27 +1005,55 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1600.0,
+						"translation.y": 1560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "courses.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7086,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								910,
+								910
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 2,
 					"file": "about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5054,
+						"buffer_size": 5009,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1954,
-								1960
+								2073,
+								2073
 							]
 						],
 						"settings":
@@ -1033,38 +1061,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 1400.0,
+						"translation.y": 2040.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "courses.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4626,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4243,
-								4243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 5680.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1073,15 +1073,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7902,
+						"buffer_size": 10719,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								598,
-								598
+								9209,
+								9209
 							]
 						],
 						"settings":
@@ -1090,7 +1090,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 20680.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
