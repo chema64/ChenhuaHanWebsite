@@ -335,7 +335,7 @@ main #about #aboutFlexContainer #aboutFlexItem03 h5 {
 main #about #aboutFlexContainer #aboutFlexItem02 img {
 	/*border: thin solid blue;*/
 	height: 322px;
-	width: 273px;
+	width: 254px;
 	box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -460,7 +460,7 @@ main #courses #coursesFlexContainer #coursesFlexItem03 .visible-xs h4 {
 /*FOOTER*/
 /*FOOTER*/
 footer {
-	height: 150px;
+	height: 120px;
 	background-color: black;
 
 }
@@ -468,10 +468,30 @@ footer {
 
 
 footer p {
-	text-align: left;
 	color: white;
 	font-family:  Arial, Helvetica,   "Hiragino Sans GB", "WenQuanYi Micro Hei",  "Microsoft YaHei", Simsun ,   sans-serif;
 	text-shadow: 0 0 1px white;
+}
+
+#footFlexContainer {
+ 	/*border: thin solid blue;*/
+ 	margin-top: 1px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+#footFlexContainer #footFlexItem2 {
+	/*border: thin solid white;*/
+
+	margin-top: 50px;
+	align-self: center;
+
+}
+
+#footFlexContainer #footFlexItem2 p{
+	font-size: 12px;
 }
 
 
@@ -600,7 +620,7 @@ footer p {
 	/*border: thin solid blue;*/
 
 		height: 165px;
-		width: 140px;
+		width: 130px;
 		box-shadow: 3px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
 	}
 
